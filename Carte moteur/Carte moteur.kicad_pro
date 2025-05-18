@@ -58,7 +58,72 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|28397500|45375000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|4415d506-28fa-4031-83b7-b3bc1b6ca622",
+          ""
+        ],
+        [
+          "courtyards_overlap|29760000|60580000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|eb1fd644-5742-4a61-b3df-a2d68f9d722a",
+          ""
+        ],
+        [
+          "courtyards_overlap|30796001|59029000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|aa58ac4a-0667-4337-98b8-01a5aa0497e8",
+          ""
+        ],
+        [
+          "courtyards_overlap|30857886|32435000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|d567ec8d-36d9-4127-b74d-5279f9944665",
+          ""
+        ],
+        [
+          "courtyards_overlap|32580000|45690000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|468d02bf-3be0-48a4-a36a-35b7ef2aa908",
+          ""
+        ],
+        [
+          "courtyards_overlap|32635000|32815000|1aff6634-8e7c-43b0-be16-06bd4b53bfed|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c",
+          ""
+        ],
+        [
+          "courtyards_overlap|33950000|27515000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|bfc8bc35-3d5a-41fd-b782-591b6d892192",
+          ""
+        ],
+        [
+          "courtyards_overlap|34370000|28995000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|854bab5d-c634-4891-8797-a461cfd11045",
+          ""
+        ],
+        [
+          "courtyards_overlap|35315000|64885000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|46492fcb-0f6a-49f5-b49b-80eaaed22cd3",
+          ""
+        ],
+        [
+          "courtyards_overlap|35695000|57225000|0ef35787-019c-4eb7-907e-4520f8137dc3|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c",
+          ""
+        ],
+        [
+          "courtyards_overlap|35845000|43022500|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|4c449500-81ee-4f0d-914e-61f044812d3e",
+          ""
+        ],
+        [
+          "courtyards_overlap|35949854|46022500|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|da294018-4554-4bde-97f2-06f4147ccd00",
+          ""
+        ],
+        [
+          "courtyards_overlap|36055000|58805000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|a6372ace-3bb9-42da-bb0d-7f9b4490cc6e",
+          ""
+        ],
+        [
+          "courtyards_overlap|37155000|29080000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|5b45534b-82d0-4bee-b364-97d8df175533",
+          ""
+        ],
+        [
+          "courtyards_overlap|37407646|49912500|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|cca472b1-52a0-4b79-a0fc-655070c4162a",
+          ""
+        ],
+        [
+          "courtyards_overlap|39597146|55755000|3bdf81f0-fa7a-4160-91ad-29b2526e6d1c|e460402b-0063-4a77-93ea-df1892dc3027",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -574,12 +639,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
