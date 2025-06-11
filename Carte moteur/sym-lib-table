@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "MarkingEvo")(type "KiCad")(uri "/home/user1/Evolutek/lib-elec/LibKicad/MarkingEvo.kicad_sym")(options "")(descr ""))
-  (lib (name "ConnectorsEvo")(type "KiCad")(uri "/home/user1/Evolutek/lib-elec/LibKicad/ConnectorsEvo.kicad_sym")(options "")(descr ""))
-  (lib (name "ComponentsEvo")(type "KiCad")(uri "/home/user1/Evolutek/lib-elec/LibKicad/ComponentsEvo.kicad_sym")(options "")(descr ""))
-)
