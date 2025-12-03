@@ -1,0 +1,858 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "11ccfc11-4077-4c38-90ec-fa3ab2da2336")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 22.86 38.1)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11db325e-cd6c-4c03-a4e0-4326f0787fd1")
+		(property "Sheetname" "Hoop Interface Front"
+			(at 22.86 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hoop_interface.kicad_sch"
+			(at 22.86 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WARNING_LIGHT" input
+			(at 43.18 41.91 0)
+			(uuid "6e627bc0-baa0-4f93-ab20-f51490764f91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAMERA_SYNC" input
+			(at 43.18 44.45 0)
+			(uuid "d2ef054d-0b16-4dde-bcca-fbe5b4fe482f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HEADLIGHT" input
+			(at 43.18 46.99 0)
+			(uuid "47d9ec0f-6dc4-49d8-8227-3f7efc9c2e37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDSTRIP" input
+			(at 43.18 49.53 0)
+			(uuid "d1bcdf66-2594-4e91-8f83-8e7777ab42f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMERGENCY_STOP_SWITCH" output
+			(at 43.18 52.07 0)
+			(uuid "2e516e45-38cd-4dcb-a05f-bb0a55f122a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 24.13)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "332396a2-6d74-4599-a39d-02072a729a0c")
+		(property "Sheetname" "Power"
+			(at 22.86 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 22.86 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR_POWER_ENABLE" input
+			(at 43.18 26.67 0)
+			(uuid "8b3b1e4e-74fe-4fee-8b69-7c731b4888cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{POWER_SWITCH}" input
+			(at 43.18 29.21 0)
+			(uuid "78ab39ec-0657-4187-8d6e-2e238eace294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 64.77)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ef8718e-f3fe-4dce-bfd4-bdbb6e392394")
+		(property "Sheetname" "Hoop Interface Back"
+			(at 22.86 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hoop_interface.kicad_sch"
+			(at 22.86 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WARNING_LIGHT" input
+			(at 43.18 67.31 0)
+			(uuid "b2003914-9e0d-445e-ad3f-5d9a5c259b73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAMERA_SYNC" input
+			(at 43.18 69.85 0)
+			(uuid "e84ed6f2-c745-4b03-b5a3-1dd865262002")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HEADLIGHT" input
+			(at 43.18 73.66 0)
+			(uuid "00bf6f04-5b37-4a91-97e4-307e5a685e92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDSTRIP" input
+			(at 43.18 76.2 0)
+			(uuid "8000a20c-869e-48d7-aea7-5c27b6e66737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMERGENCY_STOP_SWITCH" output
+			(at 43.18 78.74 0)
+			(uuid "e35157c4-b11a-41e2-bda5-36e7c13ff73a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 110.49)
+		(size 54.61 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4be31cd2-ef44-41e6-8ca2-6c0c6185a506")
+		(property "Sheetname" "Bus EVO"
+			(at 93.98 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus_evo.kicad_sch"
+			(at 93.98 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 93.98 115.57 180)
+			(uuid "0033654d-5c0b-4119-aeb5-5a6685d59769")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 93.98 119.38 180)
+			(uuid "68d8f333-e39d-4922-a0a4-f7f6439f4cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 93.98 125.73 180)
+			(uuid "72c161ab-1b84-43e8-b4e1-1aa5a4f7f9c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EMMERGECY_STOP" input
+			(at 93.98 138.43 180)
+			(uuid "081e9add-c765-4e09-8a8f-fded6ff7f432")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 105.41)
+		(size 43.18 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "645293de-1ca0-4732-8b3b-9edbe2d013bb")
+		(property "Sheetname" "Logic"
+			(at 29.21 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic.kicad_sch"
+			(at 29.21 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" input
+			(at 72.39 109.22 0)
+			(uuid "c5771885-bf0c-415e-bebc-409f62b02b3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 38.1 105.41 90)
+			(uuid "16247294-067b-494e-9c1a-33d37bcfb0cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 44.45 105.41 90)
+			(uuid "1081c268-94fb-4b86-83e3-ed5ae32a8cd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMERGENCY_STOP_SWITCH_BACK" input
+			(at 45.72 105.41 90)
+			(uuid "57c923aa-cdc9-4b7a-a384-5813090edb5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MANUAL_MODE_ENABLE" output
+			(at 52.07 105.41 90)
+			(uuid "2f0fdb8c-1af0-43f2-b206-ef05d954ea4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDSTRIP_FRONT" output
+			(at 54.61 105.41 90)
+			(uuid "09afbf60-5df6-4098-ab0d-7e7646dc0b3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_SOFT" input
+			(at 57.15 105.41 90)
+			(uuid "b2cecdbb-f91f-4173-940d-07920565566f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMERGECY_STOP" output
+			(at 59.69 105.41 90)
+			(uuid "48bd5aa3-3835-44a2-bcf0-1b5adda2d5bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_POWER_EN" output
+			(at 62.23 105.41 90)
+			(uuid "3d4c600b-1e22-4d59-ad56-89fe3edbe090")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 72.39 113.03 0)
+			(uuid "4921aec8-32e2-4e43-92a7-e28f78705bd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LEDSTRIP_BACK" output
+			(at 72.39 119.38 0)
+			(uuid "16311920-80d0-41c8-9e4b-0cd767754694")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MANUAL_MODE_SWITCH" input
+			(at 72.39 121.92 0)
+			(uuid "93def6c3-3b54-4b53-bcdc-d820c5d411c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_POWER_ENABLE" output
+			(at 72.39 123.19 0)
+			(uuid "f8d9f8ab-1bd4-43b2-be50-1a033318549d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUZZER" output
+			(at 72.39 127 0)
+			(uuid "1682e4f4-f4c9-4aae-88d5-a30d453629b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 72.39 130.81 0)
+			(uuid "8f8b1259-8595-472c-836a-b48e17ae0c43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMERGENCY_STOP_SWITCH_FRONT" input
+			(at 29.21 115.57 180)
+			(uuid "bfa2fdb2-2714-46a9-b2c0-a0e5ebc3e408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_POWER_SWITCH" input
+			(at 29.21 118.11 180)
+			(uuid "a538ef83-dcb5-4e32-92c6-2623b8e41a6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HEADLIGHT" output
+			(at 29.21 121.92 180)
+			(uuid "3f90d630-e574-4839-8a2c-632494849acd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EMMERGENCY_STOP_SOFT" input
+			(at 29.21 125.73 180)
+			(uuid "8f612be9-0db5-4f6d-9ac9-0c1cb3e9b0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_SWITCH" input
+			(at 29.21 129.54 180)
+			(uuid "26c2231c-b263-465c-96c4-08265e5aabc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 64.77)
+		(size 152.4 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ad25bad-08d0-41fb-a1d7-ce510cb7ccec")
+		(property "Sheetname" "Computer Interface"
+			(at 100.33 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "computer_interface.kicad_sch"
+			(at 100.33 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" input
+			(at 139.7 64.77 90)
+			(uuid "07aecc33-7dc4-4615-bb4f-25c73c94f636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMERGENCY_STOP_SOFT" output
+			(at 151.13 64.77 90)
+			(uuid "dcee6990-fbd9-465d-8281-42446ba488b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 157.48 64.77 90)
+			(uuid "5595f5e3-c866-4f9f-90bc-a612cdca4fea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAMERA_SYNC" output
+			(at 165.1 64.77 90)
+			(uuid "e2737ebf-ea5a-49b3-87fb-19025c81f5ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GREEN_LED" output
+			(at 166.37 64.77 90)
+			(uuid "d5713b41-6c61-4f5b-8c7a-9ae5fb7ef21a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RED_LED" output
+			(at 176.53 64.77 90)
+			(uuid "b3908f3f-becb-4f56-8b24-cf4ea58ec4a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_SOFT" output
+			(at 184.15 64.77 90)
+			(uuid "5bddb1c8-46e9-4f34-ac5f-96189e1a2989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 191.77 64.77 90)
+			(uuid "b72fc609-8b9d-4339-bdf3-04bb952d2da7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 24.13)
+		(size 55.88 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bda20b07-ee1e-4e2e-b1f1-8577a7b8117d")
+		(property "Sheetname" "Interface UI"
+			(at 195.58 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface_ui.kicad_sch"
+			(at 195.58 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" input
+			(at 214.63 24.13 90)
+			(uuid "1e777325-33b9-490d-8cfb-e9800e89694f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 195.58 40.64 180)
+			(uuid "5177eec5-948f-4970-aa02-93824dd4efb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 195.58 43.18 180)
+			(uuid "90640e2f-85d6-4654-9577-72d8d7604788")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RED_LED" input
+			(at 222.25 24.13 90)
+			(uuid "b3b5b73a-4066-4e74-83ea-9d454385b6f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MANUAL_MODE_SWITCH" output
+			(at 224.79 24.13 90)
+			(uuid "79b59bb5-488e-4f77-b3a6-5f0cde152d5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GREEN_LED" input
+			(at 228.6 24.13 90)
+			(uuid "53b4073d-1d51-4812-9cd2-fa65308cd1cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_POWER_EN" input
+			(at 195.58 29.21 180)
+			(uuid "444ec424-648c-42c8-b901-1f1733fc96c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MANUAL_MODE_EN" input
+			(at 251.46 31.75 0)
+			(uuid "5e87b1ea-8320-4df1-9aa0-31bce9152a86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_POWER_TOGGLE" output
+			(at 195.58 38.1 180)
+			(uuid "ec593365-f2ac-4ef8-873b-d4ef616fb098")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_EN" output
+			(at 195.58 26.67 180)
+			(uuid "67e2460f-e8c9-449c-96c5-f0f46b267196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_HW" output
+			(at 251.46 39.37 0)
+			(uuid "7192eb6f-5d72-435d-a7a2-86ab271d9b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
