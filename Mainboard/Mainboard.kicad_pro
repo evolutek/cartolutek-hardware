@@ -597,7 +597,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://TemplateEvolutek.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -619,24 +619,8 @@
       "Power"
     ],
     [
-      "bda20b07-ee1e-4e2e-b1f1-8577a7b8117d",
-      "Interface UI"
-    ],
-    [
-      "11db325e-cd6c-4c03-a4e0-4326f0787fd1",
-      "Hoop Interface Front"
-    ],
-    [
-      "3ef8718e-f3fe-4dce-bfd4-bdbb6e392394",
-      "Hoop Interface Back"
-    ],
-    [
-      "9ad25bad-08d0-41fb-a1d7-ce510cb7ccec",
-      "Computer Interface"
-    ],
-    [
-      "4be31cd2-ef44-41e6-8ca2-6c0c6185a506",
-      "Bus EVO"
+      "44c73acb-f078-48b5-86f9-48b495391c81",
+      "Interfaces"
     ],
     [
       "645293de-1ca0-4732-8b3b-9edbe2d013bb",
