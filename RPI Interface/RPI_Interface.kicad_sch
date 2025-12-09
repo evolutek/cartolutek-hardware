@@ -2848,6 +2848,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -3772,6 +3781,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -8114,8 +8126,12 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8215,8 +8231,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8236,8 +8251,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8337,8 +8356,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8358,8 +8376,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8435,8 +8457,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8523,7 +8544,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8928,12 +8949,20 @@
 		(uuid "030be4bd-5a38-4feb-9767-7c73ed9b3261")
 	)
 	(no_connect
+		(at 259.08 26.67)
+		(uuid "0ac0b9b2-30d6-4a07-a459-97f2be5c4e44")
+	)
+	(no_connect
 		(at 246.38 39.37)
 		(uuid "3a3c0cbf-abfa-4f2e-98ec-339f746b9f93")
 	)
 	(no_connect
 		(at 246.38 19.05)
 		(uuid "5a3eec1d-03cc-4533-91d9-4ac8a4732f20")
+	)
+	(no_connect
+		(at 246.38 57.15)
+		(uuid "7baf78b0-ff5b-48d8-a07e-0fc7443770b3")
 	)
 	(no_connect
 		(at 163.83 55.88)
@@ -8988,8 +9017,20 @@
 		(uuid "c51790a7-6455-4708-8fb5-9a8f38c83dde")
 	)
 	(no_connect
+		(at 259.08 57.15)
+		(uuid "dfbbd4f7-4fd2-4454-b8e2-757d955e3094")
+	)
+	(no_connect
 		(at 246.38 52.07)
 		(uuid "e79d0192-a401-48a7-b56a-fa6e9294392f")
+	)
+	(no_connect
+		(at 246.38 59.69)
+		(uuid "ee2fffc6-8f6c-4d2c-81e3-ef086d130a40")
+	)
+	(no_connect
+		(at 246.38 54.61)
+		(uuid "f5a1ef20-4554-49b6-a8ec-77b44607479d")
 	)
 	(no_connect
 		(at 133.35 60.96)
@@ -9524,16 +9565,6 @@
 			(type default)
 		)
 		(uuid "58000ff2-535d-44a1-998f-f9aa6e89e33e")
-	)
-	(wire
-		(pts
-			(xy 86.36 36.83) (xy 86.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d83dab-44b6-4e7a-9efc-78266e8bbd35")
 	)
 	(wire
 		(pts
@@ -10585,7 +10616,7 @@
 		)
 		(uuid "f2c4586e-bb1a-40c9-bffc-7f9b4638229c")
 	)
-	(label "CAN_L"
+	(label "CANL"
 		(at 69.85 34.29 180)
 		(effects
 			(font
@@ -10656,6 +10687,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13036,7 +13076,7 @@
 		(lib_id "MarkingEvo:Logo Aisler")
 		(at 92.71 87.63 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13059,7 +13099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MarkingEvo:Logo Aisler Min"
+		(property "Footprint" "MarkingEvo:Logo Aisler Micro"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -13567,7 +13607,7 @@
 		(lib_id "MarkingEvo:Logo Evolutek")
 		(at 76.2 87.63 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13590,7 +13630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MarkingEvo:logo-evo-min"
+		(property "Footprint" "MarkingEvo:logo-evo-micro"
 			(at 76.2 87.63 0)
 			(effects
 				(font
