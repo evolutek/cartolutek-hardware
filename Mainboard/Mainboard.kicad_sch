@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cart'O Lutek Mainboard")
-		(date "2025-12-13")
+		(date "2025-12-19")
 		(rev "V1.0")
 	)
 	(lib_symbols)
@@ -411,16 +411,6 @@
 				(justify left top)
 			)
 		)
-		(pin "MANUAL_MODE_SWITCH" output
-			(at 137.16 83.82 0)
-			(uuid "b41fa377-3f30-4305-b8d0-862541973b80")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MOTOR_POWER_ENABLE" input
 			(at 137.16 73.66 0)
 			(uuid "80e4f0d1-e7e2-42bf-aef6-452f83ff366c")
@@ -444,16 +434,6 @@
 		(pin "MOTOR_POWER_SWITCH" output
 			(at 137.16 76.2 0)
 			(uuid "32f0893b-6a08-43c7-a891-ddf63c9e3558")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MANUAL_MODE_ENABLE" input
-			(at 137.16 81.28 0)
-			(uuid "be7fe801-a07d-41ec-af0c-0de42de857b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,6 +601,26 @@
 				(justify right)
 			)
 		)
+		(pin "AUTO_MODE_ENABLE" input
+			(at 137.16 81.28 0)
+			(uuid "b24cf7bc-a675-4737-9b2e-4babbdd21bba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUTO_MODE_SWITCH" output
+			(at 137.16 83.82 0)
+			(uuid "fd5c3a99-7fc8-488a-8298-a801171dbdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Mainboard"
 				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
@@ -723,26 +723,6 @@
 				(justify left)
 			)
 		)
-		(pin "MANUAL_MODE_ENABLE" output
-			(at 151.13 81.28 180)
-			(uuid "e12e7b11-1c8e-466c-ae10-d23fbaccf399")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MANUAL_MODE_SWITCH" input
-			(at 151.13 83.82 180)
-			(uuid "4b037a26-e8ae-441e-a111-ba6e4273aa7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "EMERGENCY_STOP_BACK" input
 			(at 151.13 91.44 180)
 			(uuid "bfbb20a9-35c5-4700-ad73-729922abe952")
@@ -786,16 +766,6 @@
 		(pin "RESET_SOFT" input
 			(at 151.13 106.68 180)
 			(uuid "c1dd726a-3163-41b0-90db-93067b8a0ecb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RESET" output
-			(at 151.13 101.6 180)
-			(uuid "e75ecbbc-3e3d-4fc9-b17d-21fa93fc8ab2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,6 +846,36 @@
 		(pin "CANH" bidirectional
 			(at 151.13 134.62 180)
 			(uuid "e5219d52-7dba-42d6-91f7-4fa3ff1143c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" output
+			(at 151.13 101.6 180)
+			(uuid "30379eb1-3415-4d7a-9754-97ff8a93316d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUTO_MODE_SWITCH" input
+			(at 151.13 83.82 180)
+			(uuid "e81f68e2-51c0-4da5-868b-f534272aa53e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUTO_MODE_ENABLE" output
+			(at 151.13 81.28 180)
+			(uuid "d0cdc06f-738f-471f-8da6-7581174efa5a")
 			(effects
 				(font
 					(size 1.27 1.27)
