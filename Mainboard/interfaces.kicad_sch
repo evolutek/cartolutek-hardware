@@ -2840,7 +2840,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- U1 & U4 into the same component?\n- Document signal voltage levels\n- Debounce switchs ?"
+	(text "TODO:\n- U1 & U4 into the same component?\n- Document signal voltage levels\n- Debounce switchs witch capa"
 		(exclude_from_sim no)
 		(at 148.59 156.21 0)
 		(effects
@@ -4459,7 +4459,7 @@
 		(uuid "2fe5806a-d97d-489b-8cb5-486aaa9b60e0")
 	)
 	(label "MOTOR_POWER_ENABLE_U"
-		(at 262.89 129.54 180)
+		(at 262.89 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4519,7 +4519,7 @@
 		(uuid "5cbd71ac-a3c6-4817-9527-3ae4fa86721d")
 	)
 	(label "MOTOR_POWER_ENABLE_U"
-		(at 92.71 33.02 180)
+		(at 92.71 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4588,8 +4588,8 @@
 		)
 		(uuid "8dfb7a13-0adb-459f-957a-c9e364cfcdb8")
 	)
-	(label "MANUAL_MODE_ENABLE_U"
-		(at 92.71 30.48 180)
+	(label "AUTO_MODE_ENABLE_U"
+		(at 92.71 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4678,8 +4678,8 @@
 		)
 		(uuid "d1bccbb4-17de-416e-a89b-e37cfbd1021e")
 	)
-	(label "MANUAL_MODE_ENABLE_U"
-		(at 262.89 127 180)
+	(label "AUTO_MODE_ENABLE_U"
+		(at 262.89 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4740,9 +4740,9 @@
 		)
 		(uuid "13003071-4da8-4a59-a9e8-7ab3bad8ba1e")
 	)
-	(hierarchical_label "MANUAL_MODE_ENABLE"
+	(hierarchical_label "AUTO_MODE_ENABLE"
 		(shape input)
-		(at 43.18 30.48 180)
+		(at 43.18 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4797,7 +4797,7 @@
 	)
 	(hierarchical_label "MOTOR_POWER_ENABLE"
 		(shape input)
-		(at 43.18 33.02 180)
+		(at 43.18 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4971,7 +4971,7 @@
 		)
 		(uuid "e3b3a5e2-f028-4c92-ad53-a87375314337")
 	)
-	(hierarchical_label "MANUAL_MODE_SWITCH"
+	(hierarchical_label "AUTO_MODE_SWITCH"
 		(shape output)
 		(at 158.75 129.54 180)
 		(effects
