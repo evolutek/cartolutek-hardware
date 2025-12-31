@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cart'O Lutek Mainboard")
-		(date "2025-12-19")
+		(date "2025-12-31")
 		(rev "V1.0")
 	)
 	(lib_symbols)
@@ -551,16 +551,6 @@
 				(justify right)
 			)
 		)
-		(pin "HEADLIGHT" input
-			(at 137.16 114.3 0)
-			(uuid "88dfca9b-9976-448c-98b1-874af8f414e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SDA" bidirectional
 			(at 137.16 127 0)
 			(uuid "c332cdfe-195f-4fc8-ad95-55b3b4ec4b00")
@@ -614,6 +604,16 @@
 		(pin "AUTO_MODE_SWITCH" output
 			(at 137.16 83.82 0)
 			(uuid "fd5c3a99-7fc8-488a-8298-a801171dbdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HEADLIGHTS" input
+			(at 137.16 114.3 0)
+			(uuid "064c973c-0b04-4ebc-b51e-799eb78ed6ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,16 +676,6 @@
 		(pin "MOTOR_POWER_SWITCH" input
 			(at 151.13 76.2 180)
 			(uuid "a538ef83-dcb5-4e32-92c6-2623b8e41a6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HEADLIGHT" output
-			(at 151.13 114.3 180)
-			(uuid "3f90d630-e574-4839-8a2c-632494849acd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,6 +866,16 @@
 		(pin "AUTO_MODE_ENABLE" output
 			(at 151.13 81.28 180)
 			(uuid "d0cdc06f-738f-471f-8da6-7581174efa5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HEADLIGHTS" output
+			(at 151.13 114.3 180)
+			(uuid "448b1bef-3832-4435-8230-23164832239d")
 			(effects
 				(font
 					(size 1.27 1.27)
