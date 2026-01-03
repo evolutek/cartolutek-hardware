@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Hoop Interface")
-		(date "2026-01-02")
+		(date "2026-01-03")
 		(rev "V1.0")
 	)
 	(lib_symbols
@@ -6820,6 +6820,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "D1 can be solder to prevent\ninverted voltage spikes"
+		(exclude_from_sim no)
+		(at 71.12 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13098b80-b545-4c98-8efd-c29d4f5ab49e")
+	)
+	(text "C1 can be solder\nto cut off VCC"
+		(exclude_from_sim no)
+		(at 63.5 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71dc50f8-2ba3-4216-840b-7fa4135a2b5c")
+	)
+	(text "ÈMERGENCY_SWITCH needs to\nbe wired in NO mode"
+		(exclude_from_sim no)
+		(at 180.34 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "772c04b8-40df-4f0b-b392-744cd588b5fc")
+	)
+	(text "D3 can be solder to\nprevent inverted\nvoltage spikes"
+		(exclude_from_sim no)
+		(at 195.58 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6e4a678-94fe-419e-9c60-31ec85d11f17")
+	)
 	(text_box "Emergency Stop"
 		(exclude_from_sim no)
 		(at 151.13 52.07 0)
@@ -7232,7 +7272,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 30.48) (xy 72.39 30.48)
+			(xy 54.61 30.48) (xy 74.93 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7362,7 +7402,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 72.39 35.56)
+			(xy 54.61 35.56) (xy 74.93 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7412,7 +7452,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 179.07 73.66)
+			(xy 158.75 73.66) (xy 179.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7792,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 33.02) (xy 72.39 33.02)
+			(xy 54.61 33.02) (xy 74.93 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7930,16 +7970,6 @@
 		)
 		(uuid "fb92b27e-e4e0-45f3-9e77-7cd2aae4f495")
 	)
-	(label "EMERGENCY_STOP"
-		(at 72.39 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00380fe3-11f0-45e7-9de9-7ea0a8aebcaf")
-	)
 	(label "CAMERA_SYNC"
 		(at 214.63 27.94 0)
 		(effects
@@ -7951,7 +7981,7 @@
 		(uuid "16bf3ba7-9cd1-4445-a7ac-34904a7f8927")
 	)
 	(label "HEADLIGHTS"
-		(at 72.39 30.48 180)
+		(at 74.93 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7971,7 +8001,7 @@
 		(uuid "587f6c98-cb12-43ab-8599-bc372d138c51")
 	)
 	(label "WARNING_LIGHTS"
-		(at 72.39 33.02 180)
+		(at 74.93 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7989,6 +8019,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb43e1b1-b519-46f6-8e4b-8ad6f21f2f4b")
+	)
+	(label "EMERGENCY_SWITCH"
+		(at 74.93 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce40d0b6-af29-4ed2-983a-ef7eb3ee593a")
 	)
 	(label "WARNING_LIGHTS"
 		(at 154.94 34.29 0)
@@ -8010,8 +8050,8 @@
 		)
 		(uuid "eb6bd44d-2d44-4cc6-89bc-48e6b8aca1a2")
 	)
-	(label "EMERGENCY_STOP"
-		(at 162.56 73.66 0)
+	(label "EMERGENCY_SWITCH"
+		(at 158.75 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8167,9 +8207,9 @@
 		(at 34.29 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "235444af-f4d5-4134-a074-37df62801f5e")
 		(property "Reference" "C1"
 			(at 30.48 24.5109 0)
@@ -8180,7 +8220,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "C"
 			(at 30.48 27.0509 0)
 			(effects
 				(font
@@ -8439,7 +8479,7 @@
 		(lib_id "MarkingEvo:Logo Aisler")
 		(at 63.5 110.49 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8490,15 +8530,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 63.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project ""
 				(path "/056f3da6-dee5-4d4f-af63-0a36b0f47ba5"
@@ -8514,9 +8545,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "34227b55-bb54-45ba-8d23-8171b9e655e3")
 		(property "Reference" "D1"
 			(at 48.26 64.4524 90)
@@ -9011,9 +9042,9 @@
 		(at 48.26 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "565c052d-945d-4c74-ac1e-170e71df4ac8")
 		(property "Reference" "Q1"
@@ -10474,7 +10505,7 @@
 		(lib_id "MarkingEvo:Logo Evolutek")
 		(at 34.29 110.49 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10517,15 +10548,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 34.29 110.49 0)
 			(effects
 				(font
@@ -11027,9 +11049,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cb66445e-752b-4e11-b720-02395e427f38")
 		(property "Reference" "D3"
 			(at 176.53 23.8124 90)
