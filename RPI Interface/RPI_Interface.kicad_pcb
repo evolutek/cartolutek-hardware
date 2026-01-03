@@ -3713,7 +3713,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "4bb11675-1987-46ff-a68f-2c43ccfa4261")
 		)
 		(pad "MH" thru_hole circle
 			(at -1.431891 -30.431891)
@@ -3724,7 +3724,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "8e4b5e26-87d4-42bd-9113-d231d6b55535")
 		)
 		(pad "MH" thru_hole circle
 			(at -1.431891 -27.568109)
@@ -3735,7 +3735,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "854c2196-bc4c-4adf-bfe5-20075ee8931d")
 		)
 		(pad "MH" thru_hole circle
 			(at -1.431891 27.568109)
@@ -3746,7 +3746,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "7ead1ad5-aa18-4d2f-83ab-0d1346efc0ab")
 		)
 		(pad "MH" thru_hole circle
 			(at -1.431891 30.431891)
@@ -3757,7 +3757,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "fcc49b7d-fa22-4119-852e-c2511a008c84")
 		)
 		(pad "MH" thru_hole circle
 			(at 0 -31.025)
@@ -3768,7 +3768,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "11f3b7aa-c3ce-4503-9357-f7b2ad48d6be")
 		)
 		(pad "MH" thru_hole circle
 			(at 0 -29)
@@ -3779,7 +3779,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "bcdf2386-d19b-4e46-85ee-48519f214c22")
 		)
 		(pad "MH" thru_hole circle
 			(at 0 -26.975)
@@ -3790,7 +3790,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "246e6041-19a5-4094-8a60-144df54ae343")
 		)
 		(pad "MH" thru_hole circle
 			(at 0 26.975)
@@ -3801,7 +3801,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "6027f241-7326-49b5-a60d-a63733fbf94d")
 		)
 		(pad "MH" thru_hole circle
 			(at 0 29)
@@ -3812,7 +3812,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "587733ab-4e4c-4289-b0fb-8e8bba02d2b6")
 		)
 		(pad "MH" thru_hole circle
 			(at 0 31.025)
@@ -3823,7 +3823,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "bbf7d071-61d9-4c48-941a-033ad66e2075")
 		)
 		(pad "MH" thru_hole circle
 			(at 1.431891 -30.431891)
@@ -3834,7 +3834,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "17192f65-31e5-4d79-97ae-6dde10f5cd5e")
 		)
 		(pad "MH" thru_hole circle
 			(at 1.431891 -27.568109)
@@ -3845,7 +3845,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "311f1bf0-7d6a-484c-a205-9747ac46000f")
 		)
 		(pad "MH" thru_hole circle
 			(at 1.431891 27.568109)
@@ -3856,7 +3856,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "56bb7bd1-ef5f-483a-9feb-555efa429335")
 		)
 		(pad "MH" thru_hole circle
 			(at 1.431891 30.431891)
@@ -3867,7 +3867,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "bedf3848-6158-47a5-9b67-e2c355628ad0")
 		)
 		(pad "MH" thru_hole circle
 			(at 2.025 -29)
@@ -3878,7 +3878,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "fcb8b531-3f9c-4943-81d1-1a34a5bdb98a")
 		)
 		(pad "MH" thru_hole circle
 			(at 2.025 29)
@@ -3889,7 +3889,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "d1994347-0bb5-4bc6-8788-49607d7be119")
 		)
 		(pad "MH" thru_hole circle
 			(at 46.975 -29)
@@ -3900,7 +3900,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "0948a882-8076-4259-ae56-5d980182c0b8")
 		)
 		(pad "MH" thru_hole circle
 			(at 46.975 29)
@@ -3911,7 +3911,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "9109e25a-877b-463e-9de9-67368561de97")
 		)
 		(pad "MH" thru_hole circle
 			(at 47.568109 -30.431891)
@@ -3922,7 +3922,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "d0c81928-deaf-4354-b0a5-0e53e507bb1d")
 		)
 		(pad "MH" thru_hole circle
 			(at 47.568109 -27.568109)
@@ -3933,7 +3933,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "13522c5b-0ae3-4e01-b89b-af44619464a2")
 		)
 		(pad "MH" thru_hole circle
 			(at 47.568109 27.568109)
@@ -3944,7 +3944,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "8ebd23ae-16dd-4ab5-9240-160523a51ded")
 		)
 		(pad "MH" thru_hole circle
 			(at 47.568109 30.431891)
@@ -3955,7 +3955,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "e44eec7b-5c04-4095-afcb-f355d77c117a")
 		)
 		(pad "MH" thru_hole circle
 			(at 49 -31.025)
@@ -3966,7 +3966,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "367954ee-c670-41ce-8f9b-ff8f54495bd3")
 		)
 		(pad "MH" thru_hole circle
 			(at 49 -29)
@@ -3977,7 +3977,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "f6770288-ea50-4aa3-9126-9a0f076ddd02")
 		)
 		(pad "MH" thru_hole circle
 			(at 49 -26.975)
@@ -3988,7 +3988,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "bb6808c6-2bd3-4e6b-8ace-ede0e97f5b46")
 		)
 		(pad "MH" thru_hole circle
 			(at 49 26.975)
@@ -3999,7 +3999,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "3ecfb0ff-6736-46a1-a8df-f46579294b08")
 		)
 		(pad "MH" thru_hole circle
 			(at 49 29)
@@ -4010,7 +4010,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "d26b4f28-799d-4137-9a4d-367fd3cba3ae")
 		)
 		(pad "MH" thru_hole circle
 			(at 49 31.025)
@@ -4021,7 +4021,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "a83e422e-9695-41ed-9b3c-e6ce47b0b936")
 		)
 		(pad "MH" thru_hole circle
 			(at 50.431891 -30.431891)
@@ -4032,7 +4032,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "13e52abb-f12c-431a-8828-cd1ad83ddc04")
 		)
 		(pad "MH" thru_hole circle
 			(at 50.431891 -27.568109)
@@ -4043,7 +4043,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "2c1b0b13-b5c7-4e51-95f8-fbf25cd84908")
 		)
 		(pad "MH" thru_hole circle
 			(at 50.431891 27.568109)
@@ -4054,7 +4054,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "24c7c212-4206-4d97-8a33-20846391fffc")
 		)
 		(pad "MH" thru_hole circle
 			(at 50.431891 30.431891)
@@ -4065,7 +4065,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "d685285d-1c02-4266-abff-8cdda2a715eb")
 		)
 		(pad "MH" thru_hole circle
 			(at 51.025 -29)
@@ -4076,7 +4076,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "af7422c6-a367-45b4-a917-0f588ef43128")
 		)
 		(pad "MH" thru_hole circle
 			(at 51.025 29)
@@ -4087,7 +4087,7 @@
 			(net 1 "GND")
 			(pinfunction "MountingHoles")
 			(pintype "passive")
-			(uuid "a39d07a8-d5fc-4dad-93d7-27560f584e4a")
+			(uuid "93ecacb5-39ac-407f-a9db-6bdbdb63ab74")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Board/Raspberry Pi 4b/Raspberry Pi 4 Model B with 11mm Header.stp"
@@ -6473,7 +6473,7 @@
 		(path "/89676ff3-87b3-499b-a333-d2b97424836f")
 		(sheetname "/")
 		(sheetfile "RPI_Interface.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 5 -2.15)
 			(end -5 -2.15)
@@ -7916,6 +7916,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7927,6 +7928,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8779,6 +8781,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8790,6 +8793,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8858,6 +8862,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8869,6 +8874,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10683,6 +10689,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10694,6 +10701,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11007,6 +11015,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11018,6 +11027,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11612,8 +11622,8 @@
 		(layer "Edge.Cuts")
 		(uuid "f53d8b0a-82e9-4c23-8fd1-9fa0b6325cbf")
 	)
-	(gr_text "RPI Interface\nV1.0 - 2025"
-		(at 72.2 92.1 90)
+	(gr_text "RPI Interface\nV1.0 - 2026"
+		(at 72.2 93 90)
 		(layer "F.SilkS")
 		(uuid "afa7957c-36e9-447a-b648-2c272c736b72")
 		(effects
@@ -18527,26 +18537,26 @@
 				(xy 36.91764 57.4795) (xy 39.490616 57.4795) (xy 39.558737 57.499502) (xy 39.579711 57.516405) (xy 39.791913 57.728607)
 				(xy 39.791934 57.72863) (xy 39.866974 57.80367) (xy 39.866979 57.803674) (xy 39.866981 57.803676)
 				(xy 39.866982 57.803677) (xy 39.866984 57.803678) (xy 39.953513 57.853636) (xy 39.953515 57.853636)
-				(xy 39.953518 57.853638) (xy 40.050038 57.8795) (xy 41.77534 57.8795) (xy 41.775344 57.879501) (xy 41.875268 57.879501)
-				(xy 41.95139 57.859103) (xy 41.971788 57.853638) (xy 42.058325 57.803676) (xy 42.128982 57.733019)
-				(xy 42.139345 57.722656) (xy 42.139352 57.722646) (xy 42.220443 57.641555) (xy 42.282754 57.607532)
-				(xy 42.309536 57.604653) (xy 42.439615 57.604653) (xy 42.439616 57.604653) (xy 42.566064 57.579501)
-				(xy 42.685175 57.530164) (xy 42.792373 57.458536) (xy 42.883536 57.367373) (xy 42.955164 57.260175)
-				(xy 43.004501 57.141064) (xy 43.029653 57.014616) (xy 43.029653 56.88569) (xy 43.004501 56.759242)
-				(xy 42.955164 56.640131) (xy 42.883536 56.532933) (xy 42.883531 56.532927) (xy 42.792378 56.441774)
-				(xy 42.792372 56.441769) (xy 42.750495 56.413788) (xy 42.685175 56.370142) (xy 42.566064 56.320805)
-				(xy 42.439618 56.295653) (xy 42.439616 56.295653) (xy 42.31069 56.295653) (xy 42.310687 56.295653)
-				(xy 42.184241 56.320805) (xy 42.184236 56.320807) (xy 42.065131 56.370142) (xy 41.957933 56.441769)
-				(xy 41.957927 56.441774) (xy 41.866774 56.532927) (xy 41.866769 56.532933) (xy 41.795142 56.640131)
-				(xy 41.745807 56.759236) (xy 41.745805 56.759241) (xy 41.720653 56.885687) (xy 41.720653 56.9945)
-				(xy 41.700651 57.062621) (xy 41.646995 57.109114) (xy 41.594653 57.1205) (xy 40.309384 57.1205)
-				(xy 40.241263 57.100498) (xy 40.220289 57.083595) (xy 40.010864 56.87417) (xy 40.010852 56.874156)
-				(xy 39.933025 56.796329) (xy 39.933015 56.796321) (xy 39.84648 56.746361) (xy 39.835121 56.743317)
-				(xy 39.835116 56.743316) (xy 39.826084 56.740896) (xy 39.749962 56.720499) (xy 39.650038 56.720499)
-				(xy 39.650034 56.7205) (xy 36.873294 56.7205) (xy 36.805173 56.700498) (xy 36.784199 56.683595)
-				(xy 36.717225 56.616621) (xy 36.717219 56.616616) (xy 36.667608 56.583467) (xy 36.610022 56.544989)
-				(xy 36.490911 56.495652) (xy 36.488277 56.495128) (xy 36.364465 56.4705) (xy 36.364463 56.4705)
-				(xy 36.235537 56.4705) (xy 36.235534 56.4705) (xy 36.109088 56.495652) (xy 36.109083 56.495654)
+				(xy 39.953518 57.853638) (xy 40.050038 57.8795) (xy 40.149962 57.8795) (xy 41.77534 57.8795) (xy 41.775344 57.879501)
+				(xy 41.875268 57.879501) (xy 41.95139 57.859103) (xy 41.971788 57.853638) (xy 42.058325 57.803676)
+				(xy 42.128982 57.733019) (xy 42.139345 57.722656) (xy 42.139352 57.722646) (xy 42.220443 57.641555)
+				(xy 42.282754 57.607532) (xy 42.309536 57.604653) (xy 42.439615 57.604653) (xy 42.439616 57.604653)
+				(xy 42.566064 57.579501) (xy 42.685175 57.530164) (xy 42.792373 57.458536) (xy 42.883536 57.367373)
+				(xy 42.955164 57.260175) (xy 43.004501 57.141064) (xy 43.029653 57.014616) (xy 43.029653 56.88569)
+				(xy 43.004501 56.759242) (xy 42.955164 56.640131) (xy 42.883536 56.532933) (xy 42.883531 56.532927)
+				(xy 42.792378 56.441774) (xy 42.792372 56.441769) (xy 42.750495 56.413788) (xy 42.685175 56.370142)
+				(xy 42.566064 56.320805) (xy 42.439618 56.295653) (xy 42.439616 56.295653) (xy 42.31069 56.295653)
+				(xy 42.310687 56.295653) (xy 42.184241 56.320805) (xy 42.184236 56.320807) (xy 42.065131 56.370142)
+				(xy 41.957933 56.441769) (xy 41.957927 56.441774) (xy 41.866774 56.532927) (xy 41.866769 56.532933)
+				(xy 41.795142 56.640131) (xy 41.745807 56.759236) (xy 41.745805 56.759241) (xy 41.720653 56.885687)
+				(xy 41.720653 56.9945) (xy 41.700651 57.062621) (xy 41.646995 57.109114) (xy 41.594653 57.1205)
+				(xy 40.309384 57.1205) (xy 40.241263 57.100498) (xy 40.220289 57.083595) (xy 40.010864 56.87417)
+				(xy 40.010852 56.874156) (xy 39.933025 56.796329) (xy 39.933015 56.796321) (xy 39.84648 56.746361)
+				(xy 39.835121 56.743317) (xy 39.835116 56.743316) (xy 39.826084 56.740896) (xy 39.749962 56.720499)
+				(xy 39.650038 56.720499) (xy 39.650034 56.7205) (xy 36.873294 56.7205) (xy 36.805173 56.700498)
+				(xy 36.784199 56.683595) (xy 36.717225 56.616621) (xy 36.717219 56.616616) (xy 36.667608 56.583467)
+				(xy 36.610022 56.544989) (xy 36.490911 56.495652) (xy 36.488277 56.495128) (xy 36.364465 56.4705)
+				(xy 36.364463 56.4705) (xy 36.235537 56.4705) (xy 36.235534 56.4705) (xy 36.109088 56.495652) (xy 36.109083 56.495654)
 				(xy 35.989978 56.544989) (xy 35.88278 56.616616) (xy 35.882774 56.616621) (xy 35.791621 56.707774)
 				(xy 35.791616 56.70778) (xy 35.719989 56.814978) (xy 35.670654 56.934083) (xy 35.670652 56.934088)
 				(xy 35.6455 57.060534) (xy 30.2595 57.060534) (xy 30.2595 46.3855) (xy 30.279502 46.317379) (xy 30.333158 46.270886)
