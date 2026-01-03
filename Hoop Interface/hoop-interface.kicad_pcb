@@ -87,7 +87,7 @@
 	(net 7 "/WARNING_LIGHTS")
 	(net 8 "/LEDSTRIP")
 	(net 9 "/HEADLIGHTS")
-	(net 10 "/EMERGENCY_STOP")
+	(net 10 "/EMERGENCY_SWITCH")
 	(net 11 "Net-(D2-K)")
 	(net 12 "Net-(D3-A)")
 	(net 13 "unconnected-(J7-Pin_6-Pad6)")
@@ -210,7 +210,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "38a96fd4-f510-4c3e-b465-dfa0f07ae06f")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -222,7 +222,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "c24faaeb-0c62-4f01-a1fd-720cc3f264ce")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -234,7 +234,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "67ed2e04-e932-4b07-aba5-53b90baf4dc6")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -246,7 +246,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "e7fd7112-3e4f-4ecd-bce8-584a3924490b")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -258,7 +258,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "1843825e-2576-43e4-920c-8e93903f598a")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -270,7 +270,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "71b3aa8e-6a12-4a88-8a54-3bf87473a638")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -282,7 +282,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "355b47c8-ef0e-44c7-a780-e6f68f5b6a53")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -294,7 +294,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "630d223c-29ec-4af7-9343-18315679d0c9")
+			(uuid "c5f1f6b3-0db5-4aa0-9e22-7c5e7b0b131d")
 		)
 		(embedded_fonts no)
 	)
@@ -596,7 +596,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "/EMERGENCY_STOP")
+			(net 10 "/EMERGENCY_SWITCH")
 			(pinfunction "Pin_10")
 			(pintype "passive")
 			(solder_mask_margin 0)
@@ -630,6 +630,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -641,6 +642,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1388,6 +1390,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1399,6 +1402,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1917,7 +1921,7 @@
 		(path "/34227b55-bb54-45ba-8d23-8171b9e655e3")
 		(sheetname "/")
 		(sheetfile "hoop-interface.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -3.66 -2.15)
 			(end 2.15 -2.15)
@@ -2687,7 +2691,7 @@
 			(net 1 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "810fd0a9-2f77-48ac-a593-6ee44f6bd5c5")
+			(uuid "31411d80-7fdf-4427-ba13-f5f7d3b3199d")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Connectors/BM09B-SRSS-TB-LF.STEP"
@@ -3415,7 +3419,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "a55ebf04-51e5-4980-8b64-172933792575")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -3427,7 +3431,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "02bdee0a-effb-4609-8fb2-22594e10ff6a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -3439,7 +3443,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "c7b0b399-b6b1-4309-b86d-284db4311325")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -3451,7 +3455,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "8e3e171e-40dd-415d-a2c7-76fc3905f479")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -3463,7 +3467,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "36a0d423-279b-4ca7-965e-bfa7638c8e0c")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -3475,7 +3479,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "ca4f8125-8f03-4dab-927e-1bc3ee92055e")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -3487,7 +3491,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "0294c71c-b063-4c4d-b83f-eb6020047482")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -3499,7 +3503,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "7d1ff9d4-a87d-4658-9408-a7e89453ea1b")
+			(uuid "000ccef9-4e15-484f-80d1-a0993cc0564b")
 		)
 		(embedded_fonts no)
 	)
@@ -3933,6 +3937,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3944,6 +3949,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4084,6 +4090,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4095,6 +4102,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4449,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "C"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
 			(uuid "404ef25a-b288-406a-9b45-ac43011bbec6")
@@ -4488,7 +4496,7 @@
 		(path "/235444af-f4d5-4134-a074-37df62801f5e")
 		(sheetname "/")
 		(sheetfile "hoop-interface.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 7.58 -0.599)
 			(end 7.58 0.599)
@@ -6946,7 +6954,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "54cad04e-97a2-4504-8be8-dcd5407eec85")
+			(uuid "9c887825-e620-45ce-820e-982e245c9c39")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3 180)
@@ -7084,7 +7092,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "d35a520a-9905-42a7-8d12-8ce260b4186e")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -7096,7 +7104,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "32fc2dc8-99f0-4ece-b82d-cfd632d023cc")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -7108,7 +7116,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "26a8dfac-c738-4694-8a03-085bc4376f38")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7120,7 +7128,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "460744b4-301f-45c4-b0d8-3fe2db0b3b48")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -7132,7 +7140,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "5df8df96-152e-48c6-9083-c7e6c4232f8c")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -7144,7 +7152,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "83e4e984-9728-433f-aad4-d51b806a8096")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -7156,7 +7164,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "43118c01-8d11-4fe5-ba25-fe5af4a8bcf7")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -7168,7 +7176,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "3ef9ebe6-e795-43fd-8b32-a0a1b534bb89")
+			(uuid "5f189958-615e-4666-90a1-da5c66b18d66")
 		)
 		(embedded_fonts no)
 	)
@@ -8087,7 +8095,7 @@
 			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "/EMERGENCY_STOP")
+			(net 10 "/EMERGENCY_SWITCH")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "8c8f692e-1424-44ba-9fe7-7389f4d3eb1b")
@@ -8417,7 +8425,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "1b2e5b69-675c-4db9-b787-27e41b3c1dca")
 		)
 		(pad "1" thru_hole circle
 			(at -1.697056 1.697056)
@@ -8429,7 +8437,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "2a99e8be-ed22-46f8-aaba-0d6fa102df72")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -2.4)
@@ -8441,7 +8449,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "3f9d30b3-fb93-45af-b8f8-9f74e111b627")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -8453,7 +8461,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "a914854d-12f4-4125-b25e-6d013fef1ccf")
 		)
 		(pad "1" thru_hole circle
 			(at 0 2.4)
@@ -8465,7 +8473,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "aadbff2d-5c86-4a20-af94-4d341f6bc85f")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 -1.697056)
@@ -8477,7 +8485,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "571c1c69-758d-4aab-8bca-2ecb0d70ae9b")
 		)
 		(pad "1" thru_hole circle
 			(at 1.697056 1.697056)
@@ -8489,7 +8497,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "e18b8b70-ebd0-4037-97d7-538565557184")
 		)
 		(pad "1" thru_hole circle
 			(at 2.4 0)
@@ -8501,7 +8509,7 @@
 			(pinfunction "1")
 			(pintype "input")
 			(zone_connect 2)
-			(uuid "19967993-2df9-46f8-a9ac-8799d239f412")
+			(uuid "724d13ec-da64-49d4-8b49-a3b617ac0e66")
 		)
 		(embedded_fonts no)
 	)
@@ -10552,6 +10560,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10563,6 +10572,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10721,7 +10731,7 @@
 		(path "/cb66445e-752b-4e11-b720-02395e427f38")
 		(sheetname "/")
 		(sheetfile "hoop-interface.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -3.66 2.15)
 			(end 2.15 2.15)
@@ -10993,7 +11003,7 @@
 		(path "/565c052d-945d-4c74-ac1e-170e71df4ac8")
 		(sheetname "/")
 		(sheetfile "hoop-interface.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -1.85 -3.41)
 			(end 1.91 -3.41)
@@ -11175,7 +11185,7 @@
 			(net 6 "Net-(D1-A)")
 			(pinfunction "D")
 			(pintype "passive")
-			(uuid "15353cae-b3d5-4fa0-9cfa-3d31296a15c2")
+			(uuid "ba006a78-4e6e-47ba-b0be-264cda4c8ec8")
 		)
 		(pad "3" smd roundrect
 			(at -3.15 2.3)
