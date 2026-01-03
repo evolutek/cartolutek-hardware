@@ -551,7 +551,7 @@
       "plot": "Output",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Output/CarteIO_V6.step",
+      "step": "Output/rpi-interface.step",
       "svg": "",
       "vrml": ""
     },
