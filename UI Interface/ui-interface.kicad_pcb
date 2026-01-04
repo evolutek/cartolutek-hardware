@@ -107,7 +107,7 @@
 	(net 27 "unconnected-(U2-~{CS}-Pad6)")
 	(net 28 "unconnected-(U2-NC-Pad3)")
 	(net 29 "unconnected-(U2-DC-Pad7)")
-	(footprint "ComponentsEvo:WA-SMSI_9774160360"
+	(footprint "ComponentsEvo:WA-SMSI_9774110360"
 		(layer "F.Cu")
 		(uuid "072c3d36-ba59-467b-86d3-06ceb6e35d99")
 		(at 91 50)
@@ -116,7 +116,6 @@
 		(property "Reference" "H2"
 			(at 0 -4.65 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "dc4e303b-83be-4832-aad4-c3e3ec1cbc3d")
 			(effects
 				(font
@@ -164,7 +163,7 @@
 		(path "/728ebfad-1df0-4a60-a0fb-34112e7e940b")
 		(sheetname "/")
 		(sheetfile "ui-interface.kicad_sch")
-		(attr smd exclude_from_bom allow_soldermask_bridges)
+		(attr smd allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
 			(end 3.95 0)
@@ -174,7 +173,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "98fe30e7-fddb-41b0-8ce7-fd082f9132b7")
+			(uuid "b34f1623-30e5-4ea6-82e4-53628fe4a6cd")
 		)
 		(fp_circle
 			(center 0 0)
@@ -185,7 +184,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "5789be66-a8d9-4511-936f-0bb707f8ac7b")
+			(uuid "bd9468e8-7ef1-40f1-9ede-9a42e8e9b052")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -278,7 +277,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d8529144-30e9-442f-85ef-b7e48400aaa6")
+			(uuid "e04ed0f1-ab32-4ac5-b04a-e99860063145")
 		)
 		(pad "" smd custom
 			(at -2.057681 2.057681)
@@ -360,14 +359,14 @@
 					(width 0.2)
 				)
 			)
-			(uuid "94e1568d-b067-4b5c-90e8-7cac39d2af01")
+			(uuid "44e2f144-dd3f-4af1-9a2b-400d5ff860a6")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 4.4 4.4)
 			(drill 4.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "798cf080-08e8-4b55-bb37-e74945b7f9c6")
+			(uuid "dfd0da65-eda5-41cc-98b3-22c33b82b68e")
 		)
 		(pad "" smd custom
 			(at 2.057681 -2.057681)
@@ -449,7 +448,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "d9c3e2e9-7b6a-41f3-b058-c7a018a6fc33")
+			(uuid "0bbbc073-98ef-40db-bc17-4a81a9685f18")
 		)
 		(pad "" smd custom
 			(at 2.057681 2.057681)
@@ -531,7 +530,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "e88fe639-db52-40c1-8140-5aed9c455228")
+			(uuid "fe0304dd-cf17-4b52-a5a5-7ab64cc1ff67")
 		)
 		(pad "1" smd circle
 			(at -2.95 0)
@@ -549,7 +548,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "9127027f-49a7-4543-9be9-21bd935ed404")
+			(uuid "d816cc05-02d7-48dc-a226-c84d6471ba7e")
 		)
 		(pad "1" smd circle
 			(at 0 2.95)
@@ -558,7 +557,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "6f17fa06-98a6-4276-9aec-97cab404b6af")
+			(uuid "d816cc05-02d7-48dc-a226-c84d6471ba7e")
 		)
 		(pad "1" smd custom
 			(at 2.95 0)
@@ -579,7 +578,7 @@
 					(fill no)
 				)
 			)
-			(uuid "5c3cbb1f-3ccf-4228-9646-c92b10fac4bb")
+			(uuid "d816cc05-02d7-48dc-a226-c84d6471ba7e")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Components/9774110360R (rev1).stp"
@@ -2684,7 +2683,7 @@
 					(fill no)
 				)
 			)
-			(uuid "a9feaa4c-6e56-4b10-8728-bf4a953380de")
+			(uuid "c4eba2da-d8f9-4629-8be5-054b783d26a5")
 		)
 		(pad "MP" smd custom
 			(at 18.95 -19.75)
@@ -2704,7 +2703,7 @@
 					(fill no)
 				)
 			)
-			(uuid "a9feaa4c-6e56-4b10-8728-bf4a953380de")
+			(uuid "e07f5b10-641f-4afc-b98e-bb18c26b80c3")
 		)
 		(pad "MP" smd custom
 			(at 18.95 19.75)
@@ -2724,7 +2723,7 @@
 					(fill no)
 				)
 			)
-			(uuid "a9feaa4c-6e56-4b10-8728-bf4a953380de")
+			(uuid "056b488a-1d57-4633-b8ca-e81e428c6d03")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Board/Waveshare 1.5 inch OLED/Waveshare 1.5 inch OLED with 8mm spacers.stp"
@@ -2739,7 +2738,7 @@
 			)
 		)
 	)
-	(footprint "ComponentsEvo:WA-SMSI_9774160360"
+	(footprint "ComponentsEvo:WA-SMSI_9774110360"
 		(layer "F.Cu")
 		(uuid "3b7a89d5-21c4-4678-a505-5bea6e3e422b")
 		(at 91 89.5)
@@ -2748,7 +2747,6 @@
 		(property "Reference" "H3"
 			(at 0 -4.65 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "8f6c344e-5593-4fca-a18a-6fc2b0bbc597")
 			(effects
 				(font
@@ -2796,7 +2794,7 @@
 		(path "/b1537443-25b8-46bd-b2ef-dc732c55a263")
 		(sheetname "/")
 		(sheetfile "ui-interface.kicad_sch")
-		(attr smd exclude_from_bom allow_soldermask_bridges)
+		(attr smd allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
 			(end 3.95 0)
@@ -2806,7 +2804,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "189be771-69c6-4530-8575-6935a26ad3cb")
+			(uuid "579a6866-b5b0-4b0a-aee7-15fa126413c5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2817,7 +2815,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b41be51d-c7a3-4d5c-932b-9dc464989001")
+			(uuid "df029deb-70a0-41c3-941f-1676c9913fe6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2910,7 +2908,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "668d4e8d-b2ab-4b64-b0ba-8bb475cab128")
+			(uuid "24687ea9-b27c-4353-b50e-7d12c4e570a5")
 		)
 		(pad "" smd custom
 			(at -2.057681 2.057681)
@@ -2992,14 +2990,14 @@
 					(width 0.2)
 				)
 			)
-			(uuid "2d13d94a-a96d-4a0b-8c4a-e910ee9d9f64")
+			(uuid "fc6ac72b-b962-4de6-a0ac-55e04ad45b11")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 4.4 4.4)
 			(drill 4.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "085c060b-94d7-4c7a-bb53-099faffdfcbf")
+			(uuid "59d75e1e-94e6-4248-a62f-6fe9376e9fb9")
 		)
 		(pad "" smd custom
 			(at 2.057681 -2.057681)
@@ -3081,7 +3079,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "90159eaa-bd39-48a9-9191-236bb8e4d596")
+			(uuid "e8efe3c5-bd2c-4ac5-943f-9b40a146fe59")
 		)
 		(pad "" smd custom
 			(at 2.057681 2.057681)
@@ -3163,7 +3161,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "82ba4230-e8ea-4c79-8ba7-faa01220f48a")
+			(uuid "a9ba4260-37f7-4548-818d-10f839c5dda7")
 		)
 		(pad "1" smd circle
 			(at -2.95 0)
@@ -3181,7 +3179,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "4d6e5120-ffad-4327-83b6-9a12d599cc71")
+			(uuid "e1ef2f2d-7edb-49ac-82c2-43d80a5dc099")
 		)
 		(pad "1" smd circle
 			(at 0 2.95)
@@ -3190,7 +3188,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "510ea398-ff25-4036-8485-c72a177cfd38")
+			(uuid "e1ef2f2d-7edb-49ac-82c2-43d80a5dc099")
 		)
 		(pad "1" smd custom
 			(at 2.95 0)
@@ -3211,7 +3209,7 @@
 					(fill no)
 				)
 			)
-			(uuid "f7157d86-50eb-4a8d-a34c-90515639004c")
+			(uuid "e1ef2f2d-7edb-49ac-82c2-43d80a5dc099")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Components/9774110360R (rev1).stp"
@@ -5057,7 +5055,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ComponentsEvo:WA-SMSI_9774160360"
+	(footprint "ComponentsEvo:WA-SMSI_9774110360"
 		(layer "F.Cu")
 		(uuid "6f221186-34df-4aa3-9af7-2f0d81dca74d")
 		(at 41 89.5)
@@ -5066,7 +5064,6 @@
 		(property "Reference" "H4"
 			(at 0 -4.65 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "cffde489-f25e-46e7-905f-904deff2dad5")
 			(effects
 				(font
@@ -5114,7 +5111,7 @@
 		(path "/d89c0b6d-a7b6-40fd-97db-0fe62af21fc7")
 		(sheetname "/")
 		(sheetfile "ui-interface.kicad_sch")
-		(attr smd exclude_from_bom allow_soldermask_bridges)
+		(attr smd allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
 			(end 3.95 0)
@@ -5124,7 +5121,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ab7b6b85-a36e-42ed-a317-571f4be8c487")
+			(uuid "03f19f7f-ea9e-4019-ae96-806e9271c039")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5135,7 +5132,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "8182aa84-277b-431b-a6af-eb7c6b7af6cf")
+			(uuid "dbef7626-a67a-470b-a2bc-b955c29a4aa6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -5228,7 +5225,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "c859429b-a3cb-4aa2-895d-eecbecd2b7dd")
+			(uuid "005f615d-40f2-4474-be2f-ec7e619a8c9d")
 		)
 		(pad "" smd custom
 			(at -2.057681 2.057681)
@@ -5310,14 +5307,14 @@
 					(width 0.2)
 				)
 			)
-			(uuid "7f56ab98-b75f-432b-862d-2e15c420c6a3")
+			(uuid "eb89995d-3316-4da5-91c7-5be717b4d6b6")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 4.4 4.4)
 			(drill 4.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "3e61d51a-aab4-40d0-9452-505c1c9ca96f")
+			(uuid "448dc345-9b81-47ec-b03f-fde713914e47")
 		)
 		(pad "" smd custom
 			(at 2.057681 -2.057681)
@@ -5399,7 +5396,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "0f1c7121-f34e-4669-aa26-9a59ca9ec2d8")
+			(uuid "00c9f94f-51fa-47c6-99d7-40bbcdfc0d87")
 		)
 		(pad "" smd custom
 			(at 2.057681 2.057681)
@@ -5481,7 +5478,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "634f9af9-9e96-48e6-b77a-4901b9137fc2")
+			(uuid "9b02c184-e2b3-4580-8588-000a3e1a9285")
 		)
 		(pad "1" smd circle
 			(at -2.95 0)
@@ -5499,7 +5496,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "0431c71d-f29f-47a0-83f9-66d7efc3a692")
+			(uuid "70529cdb-6233-4dd9-9ed2-9ae96088fc6a")
 		)
 		(pad "1" smd circle
 			(at 0 2.95)
@@ -5508,7 +5505,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "a31704e9-ce95-4f0b-99a1-1a1ff626cce7")
+			(uuid "70529cdb-6233-4dd9-9ed2-9ae96088fc6a")
 		)
 		(pad "1" smd custom
 			(at 2.95 0)
@@ -5529,7 +5526,7 @@
 					(fill no)
 				)
 			)
-			(uuid "5dfce6f4-0762-46d9-b0f2-7bffef9f4dff")
+			(uuid "70529cdb-6233-4dd9-9ed2-9ae96088fc6a")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Components/9774110360R (rev1).stp"
@@ -5558,6 +5555,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5569,6 +5567,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6144,7 +6143,7 @@
 			)
 		)
 	)
-	(footprint "ComponentsEvo:WA-SMSI_9774160360"
+	(footprint "ComponentsEvo:WA-SMSI_9774110360"
 		(layer "F.Cu")
 		(uuid "cdf39dae-e0d0-4302-9776-e3bd9a20987d")
 		(at 41 50)
@@ -6153,7 +6152,6 @@
 		(property "Reference" "H1"
 			(at 0 -4.65 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "1108e217-fdbe-4998-bfd7-6ed729905367")
 			(effects
 				(font
@@ -6201,7 +6199,7 @@
 		(path "/d5586bf3-769b-49e1-87cf-737e02e7878a")
 		(sheetname "/")
 		(sheetfile "ui-interface.kicad_sch")
-		(attr smd exclude_from_bom allow_soldermask_bridges)
+		(attr smd allow_soldermask_bridges)
 		(fp_circle
 			(center 0 0)
 			(end 3.95 0)
@@ -6211,7 +6209,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "cdad550a-b295-4e02-b1ba-7c8e773ce8f9")
+			(uuid "3ee70b27-7554-46ad-b8df-5e0ad2ba5e2e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -6222,7 +6220,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "31ad36a1-14a5-48e8-9406-2726424058c1")
+			(uuid "59b1b1a1-1ca7-4414-8f95-db770dc30dc0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -6315,7 +6313,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "05efe6dd-cf98-483c-86cf-7c725e1784f0")
+			(uuid "720bb97b-bc72-4dd2-8a55-5dcbe92efcea")
 		)
 		(pad "" smd custom
 			(at -2.057681 2.057681)
@@ -6397,14 +6395,14 @@
 					(width 0.2)
 				)
 			)
-			(uuid "121ee60d-d0cf-49fc-9ffd-e7c58b0bb5b2")
+			(uuid "a83e0643-b9cb-4ebc-adbe-258bd35522ab")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 4.4 4.4)
 			(drill 4.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "654ec996-a304-4aee-b705-11449711ed28")
+			(uuid "bbe9ae06-0f3e-46b9-9725-81d49d585f85")
 		)
 		(pad "" smd custom
 			(at 2.057681 -2.057681)
@@ -6486,7 +6484,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "ecaf2bd3-f7d0-4cc4-bf30-54cc8214b7a4")
+			(uuid "e48b3e30-578e-4144-9fc4-ad687d71cf15")
 		)
 		(pad "" smd custom
 			(at 2.057681 2.057681)
@@ -6568,7 +6566,7 @@
 					(width 0.2)
 				)
 			)
-			(uuid "0ec85a63-d937-44b1-b47a-133e0ed62872")
+			(uuid "81998b8d-4185-4b85-97d0-b365f385bcbd")
 		)
 		(pad "1" smd circle
 			(at -2.95 0)
@@ -6586,7 +6584,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "71132085-d606-4fea-adc7-d4dd6874bf03")
+			(uuid "97d22563-714c-45df-9501-a492d90973c5")
 		)
 		(pad "1" smd circle
 			(at 0 2.95)
@@ -6595,7 +6593,7 @@
 			(net 2 "GND")
 			(pinfunction "1")
 			(pintype "input")
-			(uuid "b9d980cd-9260-48a4-b09e-21d43c04206e")
+			(uuid "97d22563-714c-45df-9501-a492d90973c5")
 		)
 		(pad "1" smd custom
 			(at 2.95 0)
@@ -6616,7 +6614,7 @@
 					(fill no)
 				)
 			)
-			(uuid "8134d1cf-7732-43aa-bc56-1df80cdef799")
+			(uuid "97d22563-714c-45df-9501-a492d90973c5")
 		)
 		(embedded_fonts no)
 		(model "${LIBELEC}/3D/Components/9774110360R (rev1).stp"
@@ -6645,6 +6643,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6657,6 +6656,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6761,6 +6761,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6773,6 +6774,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7133,6 +7135,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7145,6 +7148,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11349,6 +11353,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11361,6 +11366,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12307,6 +12313,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -12319,6 +12326,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -13432,6 +13440,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -13444,6 +13453,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -13575,6 +13585,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -13587,6 +13598,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
