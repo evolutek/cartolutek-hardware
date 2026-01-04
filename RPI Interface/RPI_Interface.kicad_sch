@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI Interface")
-		(date "2026-01-03")
+		(date "2026-01-04")
 		(rev "V1.0")
 	)
 	(lib_symbols
@@ -10346,7 +10346,7 @@
 		)
 		(uuid "2c0c3fb5-5637-44c6-9057-a8d36b1bbbe3")
 	)
-	(label "EMERGENCY_STOP"
+	(label " ~{EMERGENCY_STOP}"
 		(at 69.85 29.21 180)
 		(effects
 			(font
@@ -10546,7 +10546,7 @@
 		)
 		(uuid "ac7fa575-dc21-4ab8-babc-0622d95e58e8")
 	)
-	(label "EMERGENCY_STOP"
+	(label "  ~{EMERGENCY_STOP}"
 		(at 278.13 64.77 180)
 		(effects
 			(font
