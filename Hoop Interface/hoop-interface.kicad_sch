@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Hoop Interface")
-		(date "2026-01-03")
+		(date "2026-01-05")
 		(rev "V1.0")
 	)
 	(lib_symbols
@@ -10786,7 +10786,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 237.49 34.2899 0)
 			(effects
 				(font
