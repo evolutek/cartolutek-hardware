@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cart'O Lutek Mainboard")
-		(date "2025-12-31")
+		(date "2026-01-04")
 		(rev "V1.0")
 	)
 	(lib_symbols)
@@ -28,16 +28,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 151.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b662fac-3709-461c-8d7f-f03ffec20539")
-	)
-	(wire
-		(pts
 			(xy 137.16 96.52) (xy 151.13 96.52)
 		)
 		(stroke
@@ -55,16 +45,6 @@
 			(type default)
 		)
 		(uuid "347a3b27-177b-4d66-aae7-fc93d19841f3")
-	)
-	(wire
-		(pts
-			(xy 137.16 53.34) (xy 151.13 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403454cc-d114-4d75-9178-7aaddefd2c23")
 	)
 	(wire
 		(pts
@@ -297,8 +277,8 @@
 		(uuid "f7632c6a-4716-4eca-a624-a5dcb949b7eb")
 	)
 	(sheet
-		(at 93.98 48.26)
-		(size 43.18 13.97)
+		(at 93.98 54.61)
+		(size 43.18 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -312,7 +292,7 @@
 		)
 		(uuid "332396a2-6d74-4599-a39d-02072a729a0c")
 		(property "Sheetname" "Power"
-			(at 93.98 46.99 0)
+			(at 93.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 93.98 63.5 0)
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,26 +322,6 @@
 		(pin "~{POWER_SWITCH}" input
 			(at 137.16 59.69 0)
 			(uuid "78ab39ec-0657-4187-8d6e-2e238eace294")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_N" bidirectional
-			(at 137.16 53.34 0)
-			(uuid "3f1055cd-d9d0-44ca-845f-ea934e64b472")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_P" bidirectional
-			(at 137.16 50.8 0)
-			(uuid "e9c3783b-cca6-42b2-8161-bdf057fb7236")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,39 +431,9 @@
 				(justify right)
 			)
 		)
-		(pin "EMERGENCY_STOP_SOFT" output
-			(at 137.16 93.98 0)
-			(uuid "22190574-4a8b-4da1-afea-198286fc9089")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RESET_SWITCH" output
 			(at 137.16 104.14 0)
 			(uuid "eaef6ac8-b9ad-4b82-a730-734328553bd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EMERGENCY_STOP_FRONT" output
-			(at 137.16 96.52 0)
-			(uuid "1aab3615-bc60-427d-a44a-c9381c3cde70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EMERGENCY_STOP_BACK" output
-			(at 137.16 91.44 0)
-			(uuid "66ca9adc-77ce-452e-8ccc-ce9101305fb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,6 +551,36 @@
 				(justify right)
 			)
 		)
+		(pin "~{EMERGENCY_STOP_SOFT}" output
+			(at 137.16 96.52 0)
+			(uuid "533a4460-d265-4cde-a601-2975f9c96801")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMERGENCY_SWITCH_FRONT" output
+			(at 137.16 91.44 0)
+			(uuid "09dbcf9d-edfb-4a0f-a16b-b804c82429ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMERGENCY_SWITCH_BACK" output
+			(at 137.16 93.98 0)
+			(uuid "46808e86-6961-48a5-b0c4-adfacdd268af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Mainboard"
 				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336"
@@ -630,8 +590,8 @@
 		)
 	)
 	(sheet
-		(at 151.13 48.26)
-		(size 43.18 91.44)
+		(at 151.13 54.61)
+		(size 43.18 85.09)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -646,7 +606,7 @@
 		)
 		(uuid "645293de-1ca0-4732-8b3b-9edbe2d013bb")
 		(property "Sheetname" "Logic"
-			(at 151.13 47.5484 0)
+			(at 151.13 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,59 +653,9 @@
 				(justify left)
 			)
 		)
-		(pin "USB_N" bidirectional
-			(at 151.13 53.34 180)
-			(uuid "adcbd5b8-765c-4599-963a-c4fd1d0afc23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_P" bidirectional
-			(at 151.13 50.8 180)
-			(uuid "a97b64e1-4c6d-43d2-9b91-64aa580f10b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EMERGENCY_STOP_BACK" input
-			(at 151.13 91.44 180)
-			(uuid "bfbb20a9-35c5-4700-ad73-729922abe952")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "EMERGENCY_STOP" output
 			(at 151.13 88.9 180)
 			(uuid "7830379d-1b8f-4229-8b49-6237a3a24533")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EMERGENCY_STOP_FRONT" input
-			(at 151.13 96.52 180)
-			(uuid "5849ef0d-0109-4529-b1e5-9960b8c6b264")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EMERGENCY_STOP_SOFT" input
-			(at 151.13 93.98 180)
-			(uuid "dcc62852-d944-4613-8881-429d831bd717")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,6 +786,36 @@
 		(pin "HEADLIGHTS" output
 			(at 151.13 114.3 180)
 			(uuid "448b1bef-3832-4435-8230-23164832239d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EMERGENCY_STOP_SOFT}" input
+			(at 151.13 96.52 180)
+			(uuid "2f3aa8f8-0998-48e4-a560-79c2cecc062d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EMERGENCY_SWITCH_FRONT" input
+			(at 151.13 91.44 180)
+			(uuid "c600da28-543f-4f82-abd4-33c95ea08f83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EMERGENCY_SWITCH_BACK" input
+			(at 151.13 93.98 180)
+			(uuid "93350825-51b1-4c18-a1d3-e236a234311a")
 			(effects
 				(font
 					(size 1.27 1.27)
