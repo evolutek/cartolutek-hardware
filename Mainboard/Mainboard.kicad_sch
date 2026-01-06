@@ -10,6 +10,16 @@
 		(rev "V1.0")
 	)
 	(lib_symbols)
+	(text "TODO: Mounting holes"
+		(exclude_from_sim no)
+		(at 71.12 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e007853-07ed-48b4-87a4-f8543608c15a")
+	)
 	(junction
 		(at 142.24 73.66)
 		(diameter 0)
