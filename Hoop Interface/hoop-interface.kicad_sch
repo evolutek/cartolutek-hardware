@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Hoop Interface")
-		(date "2026-01-05")
+		(date "2026-01-06")
 		(rev "V1.0")
 	)
 	(lib_symbols
@@ -6840,7 +6840,7 @@
 		)
 		(uuid "71dc50f8-2ba3-4216-840b-7fa4135a2b5c")
 	)
-	(text "ÈMERGENCY_SWITCH needs to\nbe wired in NO mode"
+	(text "EMERGENCY_SWITCH needs to\nbe wired in NC mode"
 		(exclude_from_sim no)
 		(at 180.34 82.55 0)
 		(effects
