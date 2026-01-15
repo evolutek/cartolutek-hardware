@@ -4867,16 +4867,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 45.72) (xy 261.62 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c97ea30-511e-4937-964f-9c24f4a933e1")
-	)
-	(wire
-		(pts
 			(xy 45.72 41.91) (xy 45.72 49.53)
 		)
 		(stroke
@@ -4904,16 +4894,6 @@
 			(type default)
 		)
 		(uuid "4e9f59f6-7dc9-4c45-920d-d2a04050688e")
-	)
-	(wire
-		(pts
-			(xy 259.08 48.26) (xy 261.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4edea8d0-1bff-4951-b5e6-bec3cb2977a1")
 	)
 	(wire
 		(pts
@@ -5951,73 +5931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 266.7 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10bfc5fe-6043-4287-9e2d-d5bb438c184a")
-		(property "Reference" "J12"
-			(at 274.32 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AUX"
-			(at 274.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ConnectorsEvo:649002227222"
-			(at 266.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 266.7 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69d42260-8cee-40ae-a81a-59c76404ed9c")
-		)
-		(pin "2"
-			(uuid "85ec38dd-75ba-46b9-84b4-ffb5f22a77b4")
-		)
-		(instances
-			(project "Mainboard"
-				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 156.21 27.94 0)
 		(unit 1)
@@ -6647,7 +6560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bcdb6f9-017f-4a8b-8eb2-d8021491bfc5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 264.16 86.36 0)
 			(effects
 				(font
@@ -6697,7 +6610,7 @@
 		(instances
 			(project ""
 				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6784,73 +6697,6 @@
 			(project "Mainboard"
 				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 243.84 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36784aac-c5b9-4efd-be19-156a1da6209c")
-		(property "Reference" "J8"
-			(at 251.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AUX"
-			(at 251.46 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ConnectorsEvo:649002227222"
-			(at 243.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0a7f8c8-080e-45e3-9aee-fcf742696623")
-		)
-		(pin "2"
-			(uuid "7c089845-1488-435c-8a7a-bbf48c104eb8")
-		)
-		(instances
-			(project "Mainboard"
-				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7538,72 +7384,6 @@
 			(project "Mainboard"
 				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8078331a-1268-45f6-a865-092d5d684320")
-		(property "Reference" "#PWR054"
-			(at 259.08 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5161eaa8-585c-4c2a-b0d0-08e5c1f4e74a")
-		)
-		(instances
-			(project "Mainboard"
-				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8571,6 +8351,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 243.84 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8d70351-f3b6-42eb-942d-487f5184c8c2")
+		(property "Reference" "J8"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AUX"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ConnectorsEvo:657002140101"
+			(at 243.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14265007-473c-4047-8b93-60eb6ec0335e")
+		)
+		(pin "2"
+			(uuid "f35eee09-5b12-4b2d-812e-dc2539ad7bb6")
+		)
+		(instances
+			(project "Mainboard"
+				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 236.22 82.55 0)
 		(unit 1)
@@ -9334,72 +9181,6 @@
 			(project "Mainboard"
 				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 259.08 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1f4b0ab-9d0d-4566-a8fe-ca06bf6569d2")
-		(property "Reference" "#PWR053"
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 259.08 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 259.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13c677b0-9b69-44a0-a996-7706e0dc5abf")
-		)
-		(instances
-			(project "Mainboard"
-				(path "/11ccfc11-4077-4c38-90ec-fa3ab2da2336/332396a2-6d74-4599-a39d-02072a729a0c"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
