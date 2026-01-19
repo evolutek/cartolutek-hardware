@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cart'O Lutek Mainboard")
-		(date "2026-01-09")
+		(date "2026-01-19")
 		(rev "V1.0")
 	)
 	(lib_symbols
