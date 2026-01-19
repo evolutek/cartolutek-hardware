@@ -545,10 +545,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Output/Mainboard.step",
       "svg": "",
       "vrml": ""
     },
